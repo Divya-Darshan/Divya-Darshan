@@ -35,4 +35,4 @@
 ---
 
 🤗 Always up for collaboration or learning something new.  
-Let's build something awesome and new together!
+🎓 Let's build something awesome and new together!
