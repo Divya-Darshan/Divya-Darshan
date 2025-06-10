@@ -2,7 +2,7 @@
 
 💻 Student Developer  
 🌱 Learning new tech every day and building cool stuff along the way  
-🌍 Passionate about coding, games, and creative projects
+🌍 Passionate about coding, games, and creative projects!
 
 ---
 
