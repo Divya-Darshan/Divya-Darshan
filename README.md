@@ -1,11 +1,12 @@
-# <img src="./gif/hi.gif" width="28" style="vertical-align: middle; margin-right: 6px;"> Hi, I'm Divya Darshan <img src="./gif/catcode.gif" width="70">
+# <img src="./gif/hi.gif" width="28" style="vertical-align: middle; margin-right: 6px;"> Hi, I'm Divya Darshan 
 💻 Student Developer  
 🌱 Learning new tech every day and building cool stuff along the way  
 🌍 Passionate about coding, games, and creative projects!
 
 
 ---
-## 💡 Skills 
+# 💡 Skills <img src="./gif/catcode.gif" width="100"> 
+
 
 <table>
   <tr>
@@ -38,8 +39,8 @@
     <td><img src="https://img.shields.io/badge/GIMP-5C5543?style=flat&logo=gimp&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=Visual%20Studio%20Code&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=Visual%20Studio%20Code&logoColor=white"/></td>
-  </tr>
-</table>
+  </tr> 
+</table> 
 
 ---
 
