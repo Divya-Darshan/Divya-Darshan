@@ -34,7 +34,7 @@
     <tr>
     <td><img src="https://img.shields.io/badge/Blender-F5792A?style=flat&logo=blender&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GIMP-5C5543?style=flat&logo=gimp&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=Visual%20Studio%20Code&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black"/></td>
     <td><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=Visual%20Studio%20Code&logoColor=white"/></td>
   </tr> 
 </table> 
