@@ -1,4 +1,4 @@
-# 👋 Hi, I'm Divya Darshan
+# <img src="./gif/hi.gif" width="28" style="vertical-align: middle; margin-right: 6px;"> Hi, I'm Divya Darshan
 
 💻 Student Developer  
 🌱 Learning new tech every day and building cool stuff along the way  
