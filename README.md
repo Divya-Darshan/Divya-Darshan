@@ -24,18 +24,19 @@
     <td><img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/Godot-478CBF?style=flat&logo=godot-engine&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/Unreal-313131?style=flat&logo=unrealengine&logoColor=white"/></td> 
   </tr>
   <tr>
+    <td><img src="https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GitLab-FFFFFF?style=flat&logo=gitlab&logoColor=orange"/></td>
     <td><img src="https://img.shields.io/badge/Terminal-000000?style=flat&logo=gnu-bash&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=Visual%20Studio%20Code&logoColor=white"/></td>
+
   </tr>
     <tr>
     <td><img src="https://img.shields.io/badge/Blender-F5792A?style=flat&logo=blender&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/GIMP-5C5543?style=flat&logo=gimp&logoColor=white"/></td>
-    <td><img src="https://img.shields.io/badge/Terminal-000000?style=flat&logo=gnu-bash&logoColor=white"/></td>
+    <td><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=Visual%20Studio%20Code&logoColor=white"/></td>
     <td><img src="https://img.shields.io/badge/VS%20Code-007ACC?style=flat&logo=Visual%20Studio%20Code&logoColor=white"/></td>
   </tr>
 </table>
