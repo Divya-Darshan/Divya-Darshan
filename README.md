@@ -41,5 +41,5 @@
 
 ---
 
-🤗 Always up for collaboration or learning something new.  
+🤗 Always up for collaboration and learning something new.  
 🎓 Let's build something awesome and new together!
