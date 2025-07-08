@@ -2,9 +2,7 @@
 💻 Student Developer  
 🌱 Learning new tech every day and building cool stuff along the way  
 🌍 Passionate about coding, games, and creative projects!
-
-
-<div style="border: 1px solid #ccc; border-collapse: collapse; border-radius: 6px; overflow: hidden; width: fit-content;">
+<!--<div style="border: 1px solid #ccc; border-collapse: collapse; border-radius: 6px; overflow: hidden; width: fit-content;">
   <picture>
     <source 
       srcset="https://github-readme-stats.vercel.app/api?username=Divya-Darshan&show_icons=true&bg_color=00000000&theme=dark" 
@@ -16,8 +14,7 @@
       src="https://github-readme-stats.vercel.app/api?username=Divya-Darshan&show_icons=true&bg_color=00000000" 
       alt="My GitHub Stats" />
   </picture>
-</div>
-
+</div>]-->
 # 💡 Skills, 🔨 Tools <img src="./gif/catcode.gif" width="60"> 
 
 <table>
