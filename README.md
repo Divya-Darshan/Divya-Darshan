@@ -1,7 +1,8 @@
 # <img src="./gif/hi.gif" width="29" style="vertical-align: middle; margin-right: 6px;"> Hi, I'm Divya Darshan 
-💻 Student Developer  
-🌱 Learning new tech every day and building cool stuff along the way  
-🌍 Passionate about coding, games, and creative projects!
+🌌 *Student Developer building cool projects under the evening sky  
+💡 Exploring new technologies every day learning, experimenting, creating  
+🎮 Passionate about coding, games & creative projects combining logic and imagination*
+
 <!--<div style="border: 1px solid #ccc; border-collapse: collapse; border-radius: 6px; overflow: hidden; width: fit-content;">
   <picture>
     <source 
@@ -57,5 +58,5 @@
 
 ---
 
-🤗 Always up for collaboration and learning something new.  
-🎓 Let's build something awesome and new together!
+*🤗 Always up for collaboration and learning something new.  
+🎓 Let's build something awesome and new together!*
