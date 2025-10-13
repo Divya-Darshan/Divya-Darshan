@@ -2,7 +2,6 @@
 🌌 *Student Developer building cool projects under the evening sky  
 💡 Exploring new technologies every day learning, experimenting, creating  
 🎮 Passionate about coding, games & creative projects combining logic and imagination*
-
 <!--<div style="border: 1px solid #ccc; border-collapse: collapse; border-radius: 6px; overflow: hidden; width: fit-content;">
   <picture>
     <source 
@@ -16,7 +15,7 @@
       alt="My GitHub Stats" />
   </picture>
 </div>]-->
-# 💡 Skills, 🔨 Tools <img src="./gif/catcode.gif" width="60"> 
+## 🚀 Skills, Tools <img src="./gif/catcode.gif" width="60"> 
 
 <table>
   <tr>
