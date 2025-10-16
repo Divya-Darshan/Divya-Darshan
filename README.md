@@ -15,7 +15,8 @@
       alt="My GitHub Stats" />
   </picture>
 </div>]-->
-# <img src="./gif/catcode.gif" width="45"> Skills, Tools 
+
+# <img src="./gif/catcode.gif" width="100"> Skills, Tools 
 
 <table>
   <tr>
