@@ -2,19 +2,8 @@
 🌌 *Student Developer building cool projects under the evening sky  
 💡 Exploring new technologies every day learning, experimenting, creating  
 🎮 Passionate about coding, games & creative projects combining logic and imagination*
-<!--<div style="border: 1px solid #ccc; border-collapse: collapse; border-radius: 6px; overflow: hidden; width: fit-content;">
-  <picture>
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=Divya-Darshan&show_icons=true&bg_color=00000000&theme=dark" 
-      media="(prefers-color-scheme: dark)" />
-    <source 
-      srcset="https://github-readme-stats.vercel.app/api?username=Divya-Darshan&show_icons=true&bg_color=00000000&theme=default" 
-      media="(prefers-color-scheme: light)" />
-    <img 
-      src="https://github-readme-stats.vercel.app/api?username=Divya-Darshan&show_icons=true&bg_color=00000000" 
-      alt="My GitHub Stats" />
-  </picture>
-</div>]-->
+
+<!--
 
 # <img src="./gif/catcode.gif" width="100"> Skills, Tools 
 
@@ -52,11 +41,8 @@
   </tr> 
 </table> 
 
-
-
-
-
----
+-->
+<img src="./gif/catcode.gif" width="100">
 
 *🤗 Always up for collaboration and learning something new.  
 🎓 Let's build something awesome and new together!*
