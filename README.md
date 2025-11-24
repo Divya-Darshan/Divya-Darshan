@@ -3,8 +3,6 @@
 💡 Exploring new technologies every day learning, experimenting, creating  
 🎮 Passionate about coding, games & creative projects combining logic and imagination*
 
-<!--
-
 # <img src="./gif/catcode.gif" width="100"> Skills, Tools 
 
 <table>
@@ -41,7 +39,7 @@
   </tr> 
 </table> 
 
--->
+
 <img src="./gif/catcode.gif" width="100">
 
 *🤗 Always up for collaboration and learning something new.  
