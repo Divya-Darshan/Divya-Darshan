@@ -40,7 +40,6 @@
 </table> 
 
 
-<img src="./gif/catcode.gif" width="100">
 
 *🤗 Always up for collaboration and learning something new.  
 🎓 Let's build something awesome and new together!*
