@@ -5,7 +5,8 @@
 
 
 
-     
+<details>
+<summary>Skills and Tools ⛏️</summary>
 <table>
   <tr>
     <td><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/></td>
@@ -40,7 +41,7 @@
   </tr> 
 </table> 
 
-
+</details>
 
 
 *🤗 Always up for collaboration and learning something new.  
