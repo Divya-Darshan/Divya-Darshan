@@ -13,7 +13,6 @@
     font-family:'Segoe UI',sans-serif;
 }
 
-/* ---------- BACKGROUND LAYER ---------- */
 body{
     height:100vh;
     display:flex;
@@ -22,22 +21,21 @@ body{
     overflow:hidden;
 }
 
-/* Skeleton background */
+/* ---------- BACKGROUND ---------- */
 .bg-skeleton{
     position:fixed;
     inset:0;
     background:#dfe3ea;
-    animation:pulse 1.5s infinite;
+    animation:pulse 1.6s infinite;
     z-index:-2;
 }
 
-/* Real background */
 .bg-image{
     position:fixed;
     inset:0;
     background:url("/img/start.png") center/cover no-repeat;
     opacity:0;
-    transition:opacity 0.8s ease;
+    transition:opacity 1.2s ease;
     z-index:-1;
 }
 
@@ -46,22 +44,35 @@ body{
 }
 
 @keyframes pulse{
-    0%{opacity:.6;}
+    0%,100%{opacity:.6;}
     50%{opacity:1;}
-    100%{opacity:.6;}
 }
 
 /* ---------- CARD ---------- */
 .container{
+    position:relative;
     background:white;
     padding:50px;
     border-radius:12px;
     box-shadow:0 10px 30px rgba(0,0,0,0.08);
     max-width:700px;
     width:90%;
+    overflow:hidden;
 }
 
-/* ---------- CONTENT SKELETON ---------- */
+/* ---------- SKELETON ---------- */
+.skeleton{
+    position:absolute;
+    inset:0;
+    padding:50px;
+    transition:opacity .7s ease;
+}
+
+.skeleton.hide{
+    opacity:0;
+    pointer-events:none;
+}
+
 .skeleton div{
     background:#e5e7eb;
     border-radius:6px;
@@ -74,16 +85,26 @@ body{
 .short{width:60%;}
 .btn-skel{height:35px;width:120px;}
 
+/* ---------- REAL CONTENT ---------- */
 .content{
-    display:none;
+    opacity:0;
+    transform:scale(.96) translateY(10px);
+    transition:
+        opacity .8s ease,
+        transform .8s cubic-bezier(.22,1,.36,1);
 }
 
 .content.show{
-    display:block;
+    opacity:1;
+    transform:scale(1) translateY(0);
 }
 
 h1{margin-bottom:15px;}
-p{color:#555;margin-bottom:25px;}
+p{
+    color:#555;
+    margin-bottom:25px;
+    line-height:1.6;
+}
 
 .btn{
     padding:10px 18px;
@@ -91,6 +112,11 @@ p{color:#555;margin-bottom:25px;}
     color:white;
     text-decoration:none;
     border-radius:6px;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#333;
 }
 
 </style>
@@ -98,10 +124,8 @@ p{color:#555;margin-bottom:25px;}
 
 <body>
 
-<!-- Background Skeleton -->
+<!-- Background -->
 <div class="bg-skeleton" id="bgSkeleton"></div>
-
-<!-- Real Background -->
 <div class="bg-image" id="bgImage"></div>
 
 <div class="container">
@@ -132,29 +156,37 @@ Currently exploring opportunities to grow as a developer.
 <a href="https://github.com/Divya-Darshan"
 target="_blank"
 class="btn">GitHub</a>
-
 </div>
+
 </div>
 
 <script>
 
-/* PRELOAD BACKGROUND IMAGE */
+/* Background preload */
 const img = new Image();
-img.src = "/img/start.png";
+img.src="/img/start.png";
 
-img.onload = () => {
+img.onload=()=>{
     document.getElementById("bgImage").classList.add("show");
-    document.getElementById("bgSkeleton").style.display="none";
+    document.getElementById("bgSkeleton").style.opacity="0";
 };
 
-/* CONTENT SKELETON */
+/* Smooth skeleton transition */
 window.addEventListener("load",()=>{
-    setTimeout(()=>{
-        document.getElementById("contentSkeleton").style.display="none";
-        document.getElementById("realContent").classList.add("show");
-    },900);
-});
 
+    setTimeout(()=>{
+
+        document
+          .getElementById("contentSkeleton")
+          .classList.add("hide");
+
+        document
+          .getElementById("realContent")
+          .classList.add("show");
+
+    },1000);
+
+});
 </script>
 
 </body>
