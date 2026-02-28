@@ -1,117 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Darshan | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Darshan | Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
 
-        body {
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: url(/img/satrt.png) no-repeat center center fixed;
-        }
+/* ---------- BACKGROUND LAYER ---------- */
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+}
 
-        .container {
-            background: white;
-            padding: 50px;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.08);
-            max-width: 700px;
-            width: 90%;
-            display: flex;
-            gap: 40px;
-            align-items: center;
-        }
+/* Skeleton background */
+.bg-skeleton{
+    position:fixed;
+    inset:0;
+    background:#dfe3ea;
+    animation:pulse 1.5s infinite;
+    z-index:-2;
+}
 
-        .profile-img {
-            width: 160px;
-            height: 160px;
-            border-radius: 12px;
-            object-fit: cover;
-        }
+/* Real background */
+.bg-image{
+    position:fixed;
+    inset:0;
+    background:url("/img/start.png") center/cover no-repeat;
+    opacity:0;
+    transition:opacity 0.8s ease;
+    z-index:-1;
+}
 
-        .content h1 {
-            font-size: 28px;
-            margin-bottom: 15px;
-            color: #222;
-        }
+.bg-image.show{
+    opacity:1;
+}
 
-        .content p {
-            font-size: 15px;
-            color: #555;
-            line-height: 1.6;
-            margin-bottom: 25px;
-        }
+@keyframes pulse{
+    0%{opacity:.6;}
+    50%{opacity:1;}
+    100%{opacity:.6;}
+}
 
-        .buttons {
-            display: flex;
-            gap: 15px;
-        }
+/* ---------- CARD ---------- */
+.container{
+    background:white;
+    padding:50px;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+    max-width:700px;
+    width:90%;
+}
 
-        .btn {
-            padding: 10px 18px;
-            text-decoration: none;
-            border-radius: 6px;
-            font-size: 14px;
-            transition: 0.3s ease;
-        }
+/* ---------- CONTENT SKELETON ---------- */
+.skeleton div{
+    background:#e5e7eb;
+    border-radius:6px;
+    margin-bottom:15px;
+    animation:pulse 1.4s infinite;
+}
 
-        .primary {
-            background: #111;
-            color: white;
-        }
+.title{height:28px;width:70%;}
+.text{height:14px;width:100%;}
+.short{width:60%;}
+.btn-skel{height:35px;width:120px;}
 
-        .primary:hover {
-            background: #333;
-        }
+.content{
+    display:none;
+}
 
-        .secondary {
-            border: 1px solid #111;
-            color: #111;
-        }
+.content.show{
+    display:block;
+}
 
-        .secondary:hover {
-            background: #111;
-            color: white;
-        }
+h1{margin-bottom:15px;}
+p{color:#555;margin-bottom:25px;}
 
-        @media (max-width: 600px) {
-            .container {
-                flex-direction: column;
-                text-align: center;
-            }
-        }
-    </style>
+.btn{
+    padding:10px 18px;
+    background:#111;
+    color:white;
+    text-decoration:none;
+    border-radius:6px;
+}
+
+</style>
 </head>
+
 <body>
 
+<!-- Background Skeleton -->
+<div class="bg-skeleton" id="bgSkeleton"></div>
+
+<!-- Real Background -->
+<div class="bg-image" id="bgImage"></div>
+
 <div class="container">
-    <!-- <img src="" alt="Profile Image" class="profile-img"> -->
 
-    <div class="content">
-        <h1> <img src="https://raw.githubusercontent.com/Divya-Darshan/Divya-Darshan/refs/heads/main/gif/hi.gif" alt="hi.gif" height="40px" >  Hi, I'm Divya Darshan</h1>
-        <p>
-            I'm a fresher developer focused on building practical solutions.
-            I enjoy working with open-source tools, experimenting with systems. I'm currently exploring opportunities to apply my technical
-            foundation in real-world projects and grow as a developer.
-        </p>
-
-        <div class="buttons">
-            <a href="https://github.com/Divya-Darshan" target="_blank" class="btn primary">GitHub</a>
-            <!-- <a href="" target="_blank" class="btn secondary">Resume</a> -->
-        </div>
-    </div>
+<!-- Skeleton -->
+<div id="contentSkeleton" class="skeleton">
+    <div class="title"></div>
+    <div class="text"></div>
+    <div class="text"></div>
+    <div class="text short"></div>
+    <div class="btn-skel"></div>
 </div>
+
+<!-- Real Content -->
+<div id="realContent" class="content">
+<h1>
+<img src="https://raw.githubusercontent.com/Divya-Darshan/Divya-Darshan/refs/heads/main/gif/hi.gif"
+height="40" style="vertical-align:middle;">
+Hi, I'm Divya Darshan
+</h1>
+
+<p>
+I'm a fresher developer focused on building practical solutions.
+I enjoy working with open-source tools and experimenting with systems.
+Currently exploring opportunities to grow as a developer.
+</p>
+
+<a href="https://github.com/Divya-Darshan"
+target="_blank"
+class="btn">GitHub</a>
+
+</div>
+</div>
+
+<script>
+
+/* PRELOAD BACKGROUND IMAGE */
+const img = new Image();
+img.src = "/img/start.png";
+
+img.onload = () => {
+    document.getElementById("bgImage").classList.add("show");
+    document.getElementById("bgSkeleton").style.display="none";
+};
+
+/* CONTENT SKELETON */
+window.addEventListener("load",()=>{
+    setTimeout(()=>{
+        document.getElementById("contentSkeleton").style.display="none";
+        document.getElementById("realContent").classList.add("show");
+    },900);
+});
+
+</script>
 
 </body>
 </html>
