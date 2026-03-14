@@ -2,11 +2,7 @@
  Student Developer building cool stuff under the evening sky  
  Exploring new technologies every day learning, experimenting, creating  
  Passionate about coding, games & creative projects combining logic and imagination
-
-
-
-<details>
-<summary>Skills and Tools ⛏️</summary>
+ 
 <table>
   <tr>
     <td><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/></td>
@@ -41,7 +37,6 @@
   </tr> 
 </table> 
 
-</details>
 
 
 *🤗 Always up for collaboration and learning something new.  
