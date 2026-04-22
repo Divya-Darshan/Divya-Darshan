@@ -4,7 +4,7 @@
  Passionate about games & creative projects combining logic and imagination
 
 
-
+<!--
 <details>
 <summary>Skills and Tools ⛏️</summary>
 <table>
@@ -41,7 +41,7 @@
   </tr> 
 </table> 
 
-</details>
+</details>-->
 
 
 *🤗 Always up for collaboration and learning something new.  
