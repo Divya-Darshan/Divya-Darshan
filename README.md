@@ -43,4 +43,4 @@
 </details>
 
 
-*🤗 Always up for collaboration and learning something new.*
+*🤗 Always up for collaboration and something new.*
